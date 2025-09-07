@@ -1,0 +1,16 @@
+{
+  "resourceType": "MessageHeader",
+  "eventCoding": {
+    "system": "http://hl7.org/fhir/message-events",
+    "code": "admin-notify"
+  },
+  "source": {
+    "name": "TestApp"
+  },
+  "destination": [
+    {
+      "name": "HSB Middleware",
+      "endpoint": "http://hsb-service:8081/receive"
+    }
+  ]
+}
